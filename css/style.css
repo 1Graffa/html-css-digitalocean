@@ -1,0 +1,64 @@
+/* debug */
+.debug [class*='col-']{
+  background-color: blue;
+  height: 300px;
+  border: 1px solid red;
+}
+.row .row [class*="col-"]{
+  border: 3px solid green;
+  background-color: yellow;
+}
+.debug .h_500{
+  height: 500px;
+}
+.debug .h_400{
+  height: 400px;
+}
+.debug .h_300{
+  height: 300px;
+}
+section{
+  padding: 50px 0;
+}
+h1, h2, h3{
+  text-transform: uppercase;
+}
+
+/* Header */
+header{
+  background-image: url("../img/bg-home-1.jpg");
+}
+nav img {
+  width: 200px;
+}
+nav .btn_nav{
+  color:#0066FF;
+  background-color: transparent;
+  border: 1px solid #0066FF;
+  padding: 5px;
+  border: 2px solid #0067FF;
+}
+._square{
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+}
+._square .btn_create{
+  background-color: #0067FF;
+}
+._square .btn_google{
+  background-color: transparent;
+  border:1px solid #0067FF;
+  color: grey;
+
+}
+/* classi riutilizzabili */
+.bg_green{
+  background-color:  #1ABC9C;
+}
+.bg_white {
+  background-color: white;
+}
+.text_white{
+  color: white;
+}
