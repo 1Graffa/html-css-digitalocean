@@ -18,12 +18,8 @@
   height: 300px;
 }
 section{
-  padding: 50px 0;
-}
-h1, h2, h3{
-  text-transform: uppercase;
-}
 
+}
 /* Header */
 header{
   background-image: url("../img/bg-home-1.jpg");
@@ -36,7 +32,10 @@ nav .btn_nav{
   background-color: transparent;
   border: 1px solid #0066FF;
   padding: 5px;
-
+}
+#jumbotron h1{
+  font-size: 60px;
+  font-weight: bold;
 }
 ._square{
   padding: 5px;
@@ -56,17 +55,23 @@ nav .btn_nav{
   color: grey;
 }
 ._square .btn_deploy{
-  padding-left: 30%;
-  padding-right: 30%;
+  width: 80%;
   margin-bottom: 3px;
 }
-/* classi riutilizzabili */
-.bg_green{
-  background-color:  #1ABC9C;
+#partners img{
+  width: 100%;
+  vertical-align: middle;
+
 }
-.bg_white {
-  background-color: white;
+#deploy .lista{
+  margin: 20px 0;
+  border-left: gray 1px solid;
 }
-.text_white{
-  color: white;
+#screenshot img{
+  display: inline-block;
+  width: 100%;
+}
+.h_100{
+  height: 150px;
+  line-height: 150px;
 }
