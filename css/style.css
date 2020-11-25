@@ -39,18 +39,23 @@ nav .btn_nav{
   border: 2px solid #0067FF;
 }
 ._square{
-  color: blue;
+  color: black;
   background-color: white;
   border-radius: 5px;
 }
 ._square .btn_create{
   background-color: #0067FF;
+  color: white;
 }
 ._square .btn_google{
   background-color: transparent;
   border:1px solid #0067FF;
   color: grey;
-
+}
+._square .btn_deploy{
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 3px;
 }
 /* classi riutilizzabili */
 .bg_green{
