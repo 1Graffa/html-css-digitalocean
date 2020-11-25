@@ -36,12 +36,15 @@ nav .btn_nav{
   background-color: transparent;
   border: 1px solid #0066FF;
   padding: 5px;
-  border: 2px solid #0067FF;
+
 }
 ._square{
+  padding: 5px;
   color: black;
   background-color: white;
   border-radius: 5px;
+  border: 1px solid #0067FF;
+  margin: 50px 0;
 }
 ._square .btn_create{
   background-color: #0067FF;
@@ -53,8 +56,8 @@ nav .btn_nav{
   color: grey;
 }
 ._square .btn_deploy{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-bottom: 3px;
 }
 /* classi riutilizzabili */
