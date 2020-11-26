@@ -138,13 +138,15 @@ padding: 30px 0;
   padding:50px;
 }
 #deploy h2,
-#designed h2{
+#designed h2,
+#features h2,
+#development h2{
   color: #033059;
   font-weight: bolder;
+  padding-bottom: 20px
 }
 #deploy h4,
 #designed h4{
-  padding-top:10px;
   padding-bottom: 50px;
   line-height: 1.6;
 }
@@ -169,11 +171,47 @@ padding: 30px 0;
 }
 #screenshot img{
   display: inline-block;
-  width: 100%;
+  width: 500px;
+}
+#designed{
+  background-color: #F3F5F9;
+  padding: 30px;
+}
+#designed h5{
+  font-weight: bolder;
+  padding: 15px;
+}
+#features{
+  margin-bottom: 30px;
+}
+#features img{
+  width: 50px;
+}
+#development .rockerbox{
+  padding: 50px 10px;
+}
+#development img{
+  width: 400px;
+}
+/* REGOLE FISSE */
+.chevron-right,
+.chevron-left{
+  font-size: 50px;
+}
+.chevron-left{
+  color: darkgrey;
 }
 .h_100{
   height: 150px;
   line-height: 150px;
+}
+.h_300{
+  height: 300px;
+  line-height: 300px;
+}
+.h_500{
+  height: 500px;
+  line-height: 500px;
 }
 footer{
   color: white;
