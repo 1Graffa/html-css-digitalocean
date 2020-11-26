@@ -4,7 +4,7 @@
   height: 300px;
   border: 1px solid red;
 }
-.row .row [class*="col-"]{
+.debug .row .row [class*="col-"]{
   border: 3px solid green;
   background-color: yellow;
 }
@@ -21,8 +21,9 @@
 .text_white{
   color: white;
 }
-section{
-
+#partners{
+background-color: #F3F5F9;
+padding: 30px 0;
 }
 /* Header */
 header{
