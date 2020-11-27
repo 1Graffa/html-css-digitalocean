@@ -134,6 +134,7 @@ padding: 30px 0;
 #partners img{
   width: 100%;
   vertical-align: middle;
+  max-width: 250px;
 }
 #deploy{
   padding:50px;
@@ -313,7 +314,7 @@ footer ul{
   position: absolute;
   top: -10px;
   right: -10px;
-  color: grey;
+  color: white;
   background-color: red;
   border-radius: 50%;
   width: 28px;
