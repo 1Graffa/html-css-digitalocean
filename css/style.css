@@ -189,8 +189,33 @@ padding: 30px 0;
 #features img{
   width: 50px;
 }
+#service{
+  background-color: #0334DA;
+  padding: 50px 0;
+}
+#service h2{
+  font-weight: bold;
+  color: white;
+}
+#service .city{
+  padding: 10px;
+  margin: 10px 0;
+}
+#service .city:not(:last-child){
+  border-bottom: 1px solid white;
+}
+#service .city:last-child{
+  margin-bottom: 30px;
+}
+#service a{
+  text-decoration: none;
+  color: #8CD4FF;
+}
 #development{
   background-color: #F3F5F9;
+}
+#development h2{
+  margin-top: 50px;
 }
 #development .rockerbox{
   background-color: white;
@@ -222,6 +247,13 @@ padding: 30px 0;
 }
 .h_500{
   height: 500px;
+}
+.text_white{
+  color: white;
+  font-weight: 600;
+}
+.text_darkgrey{
+  color: lightgrey;
 }
 footer .footer_top{
   color: white;
